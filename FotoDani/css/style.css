@@ -1,0 +1,81 @@
+/* Required for full background image */
+
+html,
+body,
+header,
+#intro-section {
+height: 100%;
+
+}
+
+@media (max-width: 740px) {
+html,
+body,
+header,
+#intro-section {
+height: 100vh;
+}
+}
+
+
+.top-nav-collapse {
+background-color: #000000 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+background: transparent !important;
+}
+
+@media (max-width: 991px) {
+.navbar:not(.top-nav-collapse) {
+background: #000000 !important;
+}
+}
+
+.rgba-gradient {
+background: -moz-linear-gradient(45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
+background: -webkit-linear-gradient(45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
+background: linear-gradient(45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
+}
+#test1::before,
+#test2::before {
+  display: block;
+  content: " ";
+  margin-top: -65px;
+  height: 65px;
+  visibility: hidden;
+}
+
+/*Farellones*/
+.hm-gradient {
+  background: linear-gradient(40deg, rgba(0,51,199,.3), rgba(209,149,249,.3));
+}
+.heading {
+  margin: 0 6rem;
+  font-weight: 700;
+  color: #5d4267;
+}
+.subheading {
+  margin: 2.5rem 6rem;
+  color: #bcb2c0;
+}
+.btn.btn-margin {
+  margin-left: 6rem;
+  margin-top: 3rem;
+}
+.btn.btn-lily {
+  background: linear-gradient(40deg, rgba(0,51,199,.7), rgba(209,149,249,.7));
+}
+.title {
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+  color: #5d4267;
+}
+.subtitle {
+  color: #bcb2c0;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 6rem;
+}
+
+
